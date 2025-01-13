@@ -53,5 +53,4 @@ class Main : AppCompatActivity()
     {
         return text != null && text.length >= 8
     }
-
 }

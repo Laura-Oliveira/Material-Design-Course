@@ -20,7 +20,7 @@ class Main : AppCompatActivity()
     {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.main)
 
         txt_username = findViewById(R.id.login_txt_username)
         txt_password = findViewById(R.id.login_txt_password)

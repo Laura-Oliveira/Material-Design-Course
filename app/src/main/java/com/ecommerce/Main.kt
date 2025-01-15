@@ -30,7 +30,7 @@ class Main : AppCompatActivity()
             //Validate Username & Password
             if(txt_username != null && isPasswordValid(txt_password.text!!))
             {
-                activityIntent = Intent(this, Products::class.java)
+                activityIntent = Intent(this, ProductsGrid::class.java)
                 startActivity(activityIntent)
             }
 

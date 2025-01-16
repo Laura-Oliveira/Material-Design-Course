@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- BoxForm -->
+    <style name="BoxGlobal" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <!-- Color -->
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <!-- ScrollViewProducts -->
+    <style name="ScrollViewProducts" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height"> 625dp</item>
+
+        <!-- Position -->
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:paddingStart">@dimen/product_grid_spacing</item>
+        <item name="paddingEnd">@dimen/product_grid_spacing</item>
+
+        <!-- Color -->
+        <item name="android:background">@color/productGridBackgroundColor</item>
+
+        <!-- Behavior -->
+        <item name="layout_behavior">@string/appbar_scrolling_view_behavior</item>
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

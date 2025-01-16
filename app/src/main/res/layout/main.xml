@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -26,14 +25,12 @@
             <!-- Image Logo -->
             <ImageView
                android:id="@+id/img_logo"
-                style="@style/ImageLogo"
-                />
+                style="@style/ImageLogo" />
 
             <!-- Title -->
             <TextView
                 android:id="@+id/txt_title"
                 style="@style/Title"/>
-
 
             <!-- BoxUserName -->
             <com.google.android.material.textfield.TextInputLayout
@@ -53,28 +50,24 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/login_txt_password"
-                    style="@style/InputPassword"
-                     />
+                    style="@style/InputPassword" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Box Buttons -->
             <RelativeLayout
                 android:id="@+id/box_buttons"
-                style="@style/BoxButtons"
-               >
+                style="@style/BoxButtons">
 
                 <!-- NextButton -->
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/next_button"
-                    style="@style/FilledButton"
-                     />
+                    style="@style/FilledButton" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/cancel_button"
-                    style="@style/CancelButton"
-                    />
-
+                    style="@style/CancelButton" />
             </RelativeLayout>
+
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

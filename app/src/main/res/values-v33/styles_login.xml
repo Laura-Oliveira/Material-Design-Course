@@ -1,7 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- ScrollView -->
+    <style name="ScrollView" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
 
+        <!-- Colors -->
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- BoxForm -->
+    <style name="BoxForm" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <!-- Position -->
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">24dp</item>
+        <item name="android:paddingTop">24dp</item>
+    </style>
+
+    <!-- ImageLogo -->
+    <style name="ImageLogo" parent="Theme.Material3.Dark">
+
+        <!-- Dimens -->
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+
+        <!-- Position -->
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">75dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+
+        <!-- Content -->
+        <item name="srcCompat">@drawable/logo</item>
+    </style>
+
+    <!-- Title -->
+    <style name="Title" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Position -->
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">132dp</item>
+
+        <!-- Text -->
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- BoxUserName -->
     <style name="BoxUserName" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="errorEnabled">true</item>
+
+        <!-- Position -->
+        <item name="android:layout_margin">4dp</item>
+
+        <!-- Box -->
+        <item name="android:textColorHint">@color/white</item>
+        <item name="boxStrokeColor">@color/white</item>
+        <item name="android:hint">@string/hint_username</item>
+    </style>
+
+    <!-- Input Username -->
+    <style name="InputUserName" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Text -->
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- BoxPassword -->
+    <style name="BoxPassword" parent="Theme.Material3.Dark">
         <!-- Dimens -->
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -10,10 +91,67 @@
         <item name="android:layout_margin">4dp</item>
 
         <!-- Box -->
-        <item name="android:textColorHint">@color/white</item>
         <item name="boxStrokeColor">@color/white</item>
-        <item name="android:backdropColor">@color/background</item>
-        <item name="android:hint">@string/hint_username</item>
+        <item name="boxBackgroundColor">@color/background</item>
+        <item name="errorEnabled">true</item>
 
+        <!-- Text -->
+        <item name="android:hint">@string/hint_password</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <!-- Input Password -->
+    <style name="InputPassword" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Text -->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <!-- BoxButtons -->
+    <style name="BoxButtons" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Position -->
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <!-- FilledButton -->
+    <style name="FilledButton" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Position -->
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+
+        <!-- Colors -->
+        <item name="android:backgroundTint">@color/colorAccent</item>
+
+        <!-- Text -->
+        <item name="android:text">@string/button_next</item>
+    </style>
+
+    <!-- CancelButton -->
+    <style name="CancelButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <!-- Dimens -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Position -->
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="layout_goneMarginRight">12dp</item>
+        <item name="android:layout_toStartOf">@id/next_button</item>
+        <item name="android:layout_toLeftOf">@id/next_button</item>
+
+        <!-- Text -->
+        <item name="android:text">@string/button_cancel</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 </resources>

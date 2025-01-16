@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ScrollViewProducts" parent="Theme.Material3.Dark">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">625dp</item>
+
+        <!-- Position -->
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+
+        <!-- Color -->
+        <item name="android:background">@color/productGridBackgroundColor</item>
+
+    </style>
+</resources>

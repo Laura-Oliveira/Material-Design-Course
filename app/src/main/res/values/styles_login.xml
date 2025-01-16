@@ -64,6 +64,7 @@
         <!-- Dimens -->
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="errorEnabled">true</item>
 
         <!-- Position -->
         <item name="android:layout_margin">4dp</item>
@@ -74,6 +75,7 @@
         <item name="android:hint">@string/hint_username</item>
     </style>
 
+    <!-- Input Username -->
     <style name="InputUserName" parent="Theme.Material3.Dark">
         <!-- Dimens -->
         <item name="android:layout_width">match_parent</item>
@@ -102,6 +104,7 @@
         <item name="android:textColorHint">@color/white</item>
     </style>
 
+    <!-- Input Password -->
     <style name="InputPassword" parent="Theme.Material3.Dark">
         <!-- Dimens -->
         <item name="android:layout_width">match_parent</item>

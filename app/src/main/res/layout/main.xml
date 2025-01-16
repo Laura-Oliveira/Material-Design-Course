@@ -48,7 +48,7 @@
 
             <!-- BoxPassword -->
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/password_label_passord"
+                android:id="@+id/password_label_password"
                 style="@style/BoxPassword">
 
                 <com.google.android.material.textfield.TextInputEditText

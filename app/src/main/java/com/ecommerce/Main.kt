@@ -27,30 +27,44 @@ class Main : AppCompatActivity()
         next_button = findViewById(R.id.next_button)
 
         next_button.setOnClickListener {
-            //Validate Username & Password
-            if(txt_username != null && isPasswordValid(txt_password.text!!))
+
+            //Validate Username
+            if(!(isUsernameValid(txt_username.text)))
             {
-                activityIntent = Intent(this, ProductsGrid::class.java)
-                startActivity(activityIntent)
+                /* Invalid password, show error message */
+                txt_username.error = getString(R.string.error_username)
             }
 
             //Validate Password
-            if(isPasswordValid(txt_password.text!!))
+            if(!(isPasswordValid(txt_password.text)))
             {
-                //Clear error message
-                txt_password.error = null
+                /* Invalid password, show error message */
+                txt_password.error = getString(R.string.error_password)
             }
             else
             {
-                //Show error message
-                txt_password.error = getString(R.string.error_password)
+                /* Valid password, clear error message */
+                txt_password.error = null
+            }
+
+            //Validate Username & Password
+            if(isUsernameValid(txt_username.text!!) && isPasswordValid(txt_password.text!!))
+            {
+                activityIntent = Intent(this, ProductsGrid::class.java)
+                startActivity(activityIntent)
             }
         }
 
     }
 
-    fun isPasswordValid(text:Editable?):Boolean
+    private fun isPasswordValid(text:Editable?):Boolean
     {
         return text != null && text.length >= 8
     }
+
+    private fun isUsernameValid(text: Editable?): Boolean
+    {
+        return text != null && text.length >= 3 // Example: Username must have at least 3 characters
+    }
+
 }

@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/cardItem"
-    style="@style/CardView.Dark">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardItem"
+        style="@style/CardView.Dark"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp">
 
-    <!-- CardView Box Global -->
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/card_view_box_global"
-        style="@style/BoxCardView">
-
-        <!-- Image -->
-        <ImageView
-            android:id="@+id/card_view_product_image"
-            style="@style/ImageCardView" />
-
-        <!-- Box Content -->
+        <!-- CardView Box Global -->
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:id="@+id/card_view_box_content"
-            style="@style/BoxContent">
+            android:id="@+id/card_view_box_global"
+            style="@style/BoxCardView">
 
-            <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/card_view_product_title"
-                style="@style/TitleCardView" />
+            <!-- Image -->
+            <ImageView
+                android:id="@+id/card_view_product_image"
+                style="@style/ImageCardView" />
 
-            <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/card_view_product_price"
-                style="@style/DescriptionCardView" />
+            <!-- Box Content -->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/card_view_box_content"
+                style="@style/BoxContent">
 
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/card_view_product_title"
+                    style="@style/TitleCardView" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/card_view_product_price"
+                    style="@style/DescriptionCardView" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
         </androidx.appcompat.widget.LinearLayoutCompat>
-    </androidx.appcompat.widget.LinearLayoutCompat>
-</com.google.android.material.card.MaterialCardView>
+    </com.google.android.material.card.MaterialCardView>

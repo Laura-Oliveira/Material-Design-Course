@@ -8,7 +8,7 @@ import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
-class Main : AppCompatActivity()
+class MainView : AppCompatActivity()
 {
     private lateinit var txt_username:EditText
     private lateinit var txt_password:EditText
@@ -50,7 +50,7 @@ class Main : AppCompatActivity()
             //Validate Username & Password
             if(isUsernameValid(txt_username.text!!) && isPasswordValid(txt_password.text!!))
             {
-                activityIntent = Intent(this, ProductsGrid::class.java)
+                activityIntent = Intent(this, ProductsGridView::class.java)
                 startActivity(activityIntent)
             }
         }

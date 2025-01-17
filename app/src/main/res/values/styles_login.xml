@@ -69,6 +69,7 @@
         <item name="android:textColorHint">@color/white</item>
         <item name="boxStrokeColor">@color/white</item>
         <item name="android:hint">@string/hint_username</item>
+        <item name="hintTextColor">@color/white</item>
     </style>
 
     <!-- Input Username -->
@@ -94,6 +95,7 @@
         <item name="boxStrokeColor">@color/white</item>
         <item name="boxBackgroundColor">@color/background</item>
         <item name="errorEnabled">true</item>
+        <item name="hintTextColor">@color/white</item>
 
         <!-- Text -->
         <item name="android:hint">@string/hint_password</item>

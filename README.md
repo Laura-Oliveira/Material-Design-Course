@@ -1,4 +1,4 @@
-# Ecommerce App (en)
+# Ecommerce App
 
 Ecommerce App is an **Android App** that focus in creatina an ecommerce app to practice the knowledge from an ongoing material design course.
 

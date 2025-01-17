@@ -1,49 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <com.google.android.material.card.MaterialCardView
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/cardItem"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardBackgroundColor="@color/white"
-        app:cardElevation="10dp"
-        app:cardPreventCornerOverlap="true"
-    android:layout_margin="10dp">
+    style="@style/CardView.Dark">
 
+    <!-- CardView Box Global -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/card_view_box_global"
+        style="@style/BoxCardView">
+
+        <!-- Image -->
+        <ImageView
+            android:id="@+id/card_view_product_image"
+            style="@style/ImageCardView" />
+
+        <!-- Box Content -->
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/white">
+            android:id="@+id/card_view_box_content"
+            style="@style/BoxContent">
 
-            <ImageView
-                android:id="@+id/product_image"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/product_card_image_height"
-                android:background="?attr/colorPrimaryDark"
-                android:scaleType="centerCrop" />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_view_product_title"
+                style="@style/TitleCardView" />
 
-            <androidx.appcompat.widget.LinearLayoutCompat
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/card_view_product_price"
+                style="@style/DescriptionCardView" />
 
-                <com.google.android.material.textview.MaterialTextView
-                    android:id="@+id/product_title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/product_title"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textColor="@color/colorPrimary"/>
-
-                <com.google.android.material.textview.MaterialTextView
-                    android:id="@+id/product_price"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/product_description"
-                    android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@color/colorPrimary"/>
-            </androidx.appcompat.widget.LinearLayoutCompat>
         </androidx.appcompat.widget.LinearLayoutCompat>
-    </com.google.android.material.card.MaterialCardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>

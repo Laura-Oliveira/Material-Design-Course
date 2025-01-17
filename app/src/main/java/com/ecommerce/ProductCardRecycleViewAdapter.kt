@@ -43,7 +43,7 @@ class ProductCardRecyclerViewAdapter(private val productList: List<Product>) : R
 }
 
 class ProductCardViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    val productImage: ImageView = itemView.findViewById(R.id.product_image)
-    val productTitle: TextView = itemView.findViewById(R.id.product_title)
-    val productPrice: TextView = itemView.findViewById(R.id.product_price)
+    val productImage: ImageView = itemView.findViewById(R.id.card_view_product_image)
+    val productTitle: TextView = itemView.findViewById(R.id.card_view_product_title)
+    val productPrice: TextView = itemView.findViewById(R.id.card_view_product_price)
 }

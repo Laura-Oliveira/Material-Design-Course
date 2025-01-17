@@ -29,21 +29,65 @@
 
         <!-- Behavior -->
         <item name="layout_behavior">@string/appbar_scrolling_view_behavior</item>
-
     </style>
 
+    <!-- BoxCardView -->
+    <style name="BoxCardView" parent="Widget.MaterialComponents.CardView">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Position -->
+        <item name="android:orientation">vertical</item>
+
+        <!-- Color -->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- ImageCardView -->
+    <style name="ImageCardView" parent="Widget.MaterialComponents.CardView">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/product_card_image_height</item>
+
+        <!-- Color -->
+        <item name="android:background">?attr/colorPrimaryDark</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- BoxContent -->
+    <style name="BoxContent" parent="Widget.MaterialComponents.CardView">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
 
 
+        <!-- Position -->
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">16dp</item>
+    </style>
 
+    <!-- TitleCardView -->
+    <style name="TitleCardView" parent="Widget.MaterialComponents.CardView">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
 
+        <!-- Text -->
+        <item name="android:text">@string/product_title</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+    </style>
 
+    <!-- DescriptionCardView -->
+    <style name="DescriptionCardView" parent="Widget.MaterialComponents.CardView">
+        <!-- Dimens -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
 
-
-
-
-
-
-
-
-
+        <!-- Text -->
+        <item name="android:text">@string/product_description</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
 </resources>

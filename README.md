@@ -11,9 +11,11 @@ Ecommerce App is an **Android App** that focus in creatina an ecommerce app to p
 * Live Data;
 * UI/UX Concepts;
 * Material Design 3;
+* CardView;
+* RecyclerView;
 * XML & Constraintlayout;
 * Libs Versions Toml;
-* Gradle.
+* Gradle (kts).
 
 ### 🛠️Tools:
 * Git/Github;

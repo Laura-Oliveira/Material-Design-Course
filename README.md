@@ -30,11 +30,13 @@ Ecommerce App is an **Android App** that focus in creatina an ecommerce app to p
 <p align="center">
   <img src="./img/print_1.jpg" width="250" height="500"/>
   <img src="./img/print_2.jpg" width="250" height="500"/>
-  <img src="./img/ecommerce.png" width="250" height="250"/>
-  <img src="./img/michin_logo.PNG" width="250" height="250"/>
+<!--  <img src="./img/ecommerce.png" width="500" height="500"/> -->
+  <img src="./img/michin_logo.PNG" width="500" height="500"/>
  </p>
 
-Do you want to build your mobile app? <a href="https://www.linkedin.com/company/michi-in/"> **Click Here** </a>
+### 💡Ready to take your business to the next level?
+
+📩 Message me now to get started <a href="https://www.linkedin.com/company/michi-in/"> **Click Here** </a>
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 <!--   <img src="./img/print_3.jpg" width="250" height="500"/> -->

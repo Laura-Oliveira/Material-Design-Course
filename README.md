@@ -7,8 +7,10 @@ Ecommerce App is an **Android App** that focus in creatina an ecommerce app to p
 * Kotlin;
 * Android SDK;
 * MVVM Architecture;
+* Data Binding;
+* Live Data;
 * UI/UX Concepts;
-* Material Design;
+* Material Design 3;
 * XML & Constraintlayout;
 * Libs Versions Toml;
 * Gradle.

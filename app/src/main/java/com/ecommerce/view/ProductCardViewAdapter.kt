@@ -1,15 +1,14 @@
-package com.ecommerce
+package com.ecommerce.view
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.view.get
-import androidx.core.view.size
 import androidx.recyclerview.widget.RecyclerView
-import com.android.volley.toolbox.NetworkImageView
 import com.bumptech.glide.Glide
+import com.ecommerce.R
+import com.ecommerce.model.Product
 
 class ProductCardRecyclerViewAdapter(private val productList: List<Product>) : RecyclerView.Adapter<ProductCardViewHolder>()
 {

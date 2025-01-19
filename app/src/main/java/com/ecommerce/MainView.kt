@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.ecommerce.view.ProductsView
 
 class MainView : AppCompatActivity()
 {
@@ -50,7 +51,7 @@ class MainView : AppCompatActivity()
             //Validate Username & Password
             if(isUsernameValid(txt_username.text!!) && isPasswordValid(txt_password.text!!))
             {
-                activityIntent = Intent(this, ProductsGridView::class.java)
+                activityIntent = Intent(this, ProductsView::class.java)
                 startActivity(activityIntent)
             }
         }

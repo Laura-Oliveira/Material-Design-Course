@@ -1,18 +1,24 @@
-package com.ecommerce
+package com.ecommerce.view
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.ecommerce.R
+import com.ecommerce.model.Product
+import com.ecommerce.viewModel.ProductsViewModel
 
-class ProductsGridView : AppCompatActivity()
+class ProductsView : AppCompatActivity()
 {
     private lateinit var toolbar: Toolbar
     private lateinit var recyclerView:RecyclerView
+    private val productsViewModel:ProductsViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
@@ -47,7 +53,11 @@ class ProductsGridView : AppCompatActivity()
 
         recyclerView = findViewById(R.id.recycler_view)
         recyclerView.layoutManager = GridLayoutManager(this, 2) // Exemplo de grid com 2 colunas
-        recyclerView.adapter = ProductCardRecyclerViewAdapter(products)
+      //  recyclerView.adapter = ProductCardRecyclerViewAdapter(products)
+
+        productsViewModel.products.observe(this, Observer { products ->
+            recyclerView.adapter = ProductCardRecyclerViewAdapter(products)
+        })
 
     }
 

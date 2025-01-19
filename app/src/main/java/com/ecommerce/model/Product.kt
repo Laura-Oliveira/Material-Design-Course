@@ -1,4 +1,4 @@
-package com.ecommerce
+package com.ecommerce.model
 
 data class Product(
     val title: String,

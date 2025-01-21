@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginView">
+
+    <!-- ScrollView -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        style="@style/ScrollView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Main Component -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/box_login_form"
+            style="@style/BoxForm">
+
+            <!-- Image Logo -->
+            <ImageView
+               android:id="@+id/img_logo"
+                style="@style/ImageLogo" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/txt_title"
+                style="@style/Title"/>
+
+            <!-- BoxUserName -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/login_label_username"
+                style="@style/BoxUserName"
+                app:boxBackgroundColor="@color/background">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_txt_username"
+                    style="@style/InputUserName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- BoxPassword -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_label_password"
+                style="@style/BoxPassword">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_txt_password"
+                    style="@style/InputPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Box Buttons -->
+            <RelativeLayout
+                android:id="@+id/box_buttons"
+                style="@style/BoxButtons">
+
+                <!-- NextButton -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/next_button"
+                    style="@style/FilledButton" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cancel_button"
+                    style="@style/CancelButton" />
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

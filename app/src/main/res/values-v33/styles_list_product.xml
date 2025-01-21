@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- ScrollView Products -->
     <style name="ScrollViewProducts" parent="Theme.Material3.Dark">
         <!-- Dimens -->
         <item name="android:layout_width">match_parent</item>
@@ -13,6 +14,5 @@
 
         <!-- Color -->
         <item name="android:background">@color/productGridBackgroundColor</item>
-
     </style>
 </resources>

@@ -31,11 +31,11 @@ class ProductsView : AppCompatActivity()
         setSupportActionBar(toolbar)
 
         // Configurações opcionais, como título ou ações
-//        supportActionBar?.apply {
-//            setDisplayHomeAsUpEnabled(true) // Habilita o botão de navegação (seta para trás)
-//            setHomeAsUpIndicator(R.drawable.menu) // Define o ícone do menu
-//            title = getString(R.string.app_name) // Define o título da Toolbar
-//        }
+        supportActionBar?.apply {
+            setDisplayHomeAsUpEnabled(true) // Habilita o botão de navegação (seta para trás)
+            setHomeAsUpIndicator(R.drawable.menu) // Define o ícone do menu
+            title = getString(R.string.app_name) // Define o título da Toolbar
+        }
 
         // Exemplo de lista de produtos
         val products = listOf(
@@ -62,14 +62,17 @@ class ProductsView : AppCompatActivity()
     }
 
     // Infla o menu na Toolbar
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean
+    {
         menuInflater.inflate(R.menu.toolbar_menu, menu) // Substitua pelo nome correto do arquivo XML do menu
         return true
     }
 
     // Trata os cliques nos itens do menu
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
+    override fun onOptionsItemSelected(item: MenuItem): Boolean
+    {
+        return when (item.itemId)
+        {
             R.id.search -> {
                 // Ação para o item de pesquisa
                 Toast.makeText(this, "Search clicked", Toast.LENGTH_SHORT).show()

@@ -10,17 +10,20 @@ import com.bumptech.glide.Glide
 import com.ecommerce.R
 import com.ecommerce.model.Product
 
-class ProductCardRecyclerViewAdapter(private val productList: List<Product>) : RecyclerView.Adapter<ProductCardViewHolder>()
+class ProductCardRecyclerViewAdapter(private val productList: List<Product>) :
+    RecyclerView.Adapter<ProductCardViewHolder>()
 {
-
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductCardViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductCardViewHolder
+    {
         val layoutView = LayoutInflater.from(parent.context)
             .inflate(R.layout.product_card, parent, false)
         return ProductCardViewHolder(layoutView)
     }
 
-    override fun onBindViewHolder(holder: ProductCardViewHolder, position: Int) {
-        if (position < productList.size) {
+    override fun onBindViewHolder(holder: ProductCardViewHolder, position: Int)
+    {
+        if (position < productList.size)
+        {
             val product = productList[position]
             holder.productTitle.text = product.title
             holder.productPrice.text = product.price
@@ -31,17 +34,16 @@ class ProductCardRecyclerViewAdapter(private val productList: List<Product>) : R
                 .load(R.drawable.ic_launcher_paid_foreground)
                 .placeholder(R.drawable.logo)
                 .into(holder.productImage)
-
           //  ImageRequester.setImageFromUrl(holder.productImage, product.url)
         }
     }
 
-    override fun getItemCount(): Int {
-        return productList.size
-    }
+    override fun getItemCount(): Int
+    { return productList.size }
 }
 
-class ProductCardViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+class ProductCardViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
+{
     val productImage: ImageView = itemView.findViewById(R.id.card_view_product_image)
     val productTitle: TextView = itemView.findViewById(R.id.card_view_product_title)
     val productPrice: TextView = itemView.findViewById(R.id.card_view_product_price)

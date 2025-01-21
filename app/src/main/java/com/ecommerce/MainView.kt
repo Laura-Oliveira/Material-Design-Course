@@ -28,7 +28,6 @@ class MainView : AppCompatActivity()
         next_button = findViewById(R.id.next_button)
 
         next_button.setOnClickListener {
-
             //Validate Username
             if(!(isUsernameValid(txt_username.text)))
             {
@@ -55,7 +54,6 @@ class MainView : AppCompatActivity()
                 startActivity(activityIntent)
             }
         }
-
     }
 
     private fun isPasswordValid(text:Editable?):Boolean
@@ -67,5 +65,4 @@ class MainView : AppCompatActivity()
     {
         return text != null && text.length >= 3 // Example: Username must have at least 3 characters
     }
-
 }

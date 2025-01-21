@@ -6,7 +6,7 @@
             android:id="@+id/search"
             android:icon="@drawable/search"
             android:title="@string/search_title"
-            app:showAsAction="always"
+            app:showAsAction="ifRoom"
             android:iconTint="@color/colorAccent"/>
         <item
             android:id="@+id/filter"

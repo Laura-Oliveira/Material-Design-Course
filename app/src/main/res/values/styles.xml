@@ -37,9 +37,7 @@
 <!--        <item name="android:layout_marginTop">35dp</item>-->
     </style>
 
-
-
-
+    <!-- CardView Styles -->
     <attr format="reference" name="cardViewStyle"/>
     <color name="cardview_dark_background">#FF424242</color>
     <color name="cardview_light_background">#FFFFFFFF</color>
@@ -100,5 +98,4 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-
 </resources>

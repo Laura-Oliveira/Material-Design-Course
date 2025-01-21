@@ -36,7 +36,7 @@ Ecommerce App is an **Android App** that focus in creatina an ecommerce app to p
   <img src="./img/michin_logo.PNG" width="500" height="500"/>
  </p>
 
-### 💡Ready to take your business to the next level?
+## 💡Ready to take your business to the next level?
 
 📩 Message me now to get started <a href="https://www.linkedin.com/company/michi-in/"> **Click Here** </a>
 -------------------------------------------------------------------------------------------------------------------------------------------

@@ -60,12 +60,6 @@ class ProductsView : AppCompatActivity()
             )
         )
 
-//        val products = listOf(
-//            Product(title = "Product 1", price = "$10.00", url = "https://via.placeholder.com/150"),
-//            Product(title = "Product 2", price = "$20.00", url = "https://via.placeholder.com/150"),
-//            Product(title = "Product 3", price = "$30.00", url = "https://via.placeholder.com/150")
-//        )
-
         recyclerView = findViewById(R.id.recycler_view)
         recyclerView.layoutManager = GridLayoutManager(this, 2) // Exemplo de grid com 2 colunas
         //  recyclerView.adapter = ProductCardRecyclerViewAdapter(products)

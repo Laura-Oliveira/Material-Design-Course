@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cardItem"
-        style="@style/CardView.Dark"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp">
+<com.google.android.material.card.MaterialCardView android:id="@+id/cardItem"
+    style="@style/CardView.Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    app:cardElevation="0dp"
+    app:cardPreventCornerOverlap="true">
 
         <!-- CardView Box Global -->
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -23,11 +25,13 @@
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/card_view_product_title"
-                    style="@style/TitleCardView" />
+                    style="@style/TitleCardView"
+                    android:textAppearance="?attr/textAppearanceSubtitle2"/>
 
                 <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/card_view_product_price"
-                    style="@style/DescriptionCardView" />
+                    style="@style/DescriptionCardView"
+                    android:textAppearance="?attr/textAppearanceBody2"/>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
         </androidx.appcompat.widget.LinearLayoutCompat>

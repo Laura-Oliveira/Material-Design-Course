@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- ScrollView -->
     <style name="ScrollView" parent="Theme.Material3.Dark">
         <!-- Dimens -->
@@ -53,6 +53,7 @@
         <item name="android:textAllCaps">true</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <!-- BoxUserName -->
@@ -80,6 +81,11 @@
 
         <!-- Text -->
         <item name="android:textColor">@color/white</item>
+        <item name="hintTextAppearance">@style/TextAppearance.TextInputLayout.HintText</item>
+    </style>
+
+    <style name="TextAppearance.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
     <!-- BoxPassword -->
@@ -138,6 +144,10 @@
 
         <!-- Text -->
         <item name="android:text">@string/button_next</item>
+
+        <item name="android:stateListAnimator" tools:ignore="NewApi">
+            @animator/next_button_state_list_anim
+        </item>
     </style>
 
     <!-- CancelButton -->

@@ -17,17 +17,36 @@
         style="@style/BoxGlobal">
 
         <!-- AppBar -->
-        <com.google.android.material.appbar.AppBarLayout
-            android:id="@+id/appBar"
-            style="@style/AppBar"
+       <com.google.android.material.appbar.AppBarLayout
+           android:id="@+id/app_bar_layout"
+           style="@style/AppBar"
+           app:logo="@drawable/branded_menu"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent">
+
+           <androidx.appcompat.widget.Toolbar
+               android:id="@+id/app_bar"
+               app:contentInsetStart="0dp"
+               style="@style/Widget.Toolbar"/>
+       </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:visibility="gone"
+            android:id="@+id/app_bar_expanded"
+            style="@style/Widget.Backdrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:elevation="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/app_bar"
-                style="@style/Widget.Shrine.Toolbar" />
-        </com.google.android.material.appbar.AppBarLayout>
+            <include layout="@layout/menu_backdrop" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
         <!-- ScrollView List Products -->
         <androidx.core.widget.NestedScrollView
@@ -36,13 +55,13 @@
             android:elevation="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/appBar">
+            app:layout_constraintTop_toBottomOf="@+id/app_bar_layout">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_view"
                 style="@style/Widget.CarUi.CarUiRecyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content" />
         </androidx.core.widget.NestedScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

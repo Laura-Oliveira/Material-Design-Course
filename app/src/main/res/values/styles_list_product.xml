@@ -10,6 +10,16 @@
         <item name="android:background">@color/background</item>
     </style>
 
+    <!-- Expanded App Menu Bar -->
+    <style name="Widget.Backdrop" parent="">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="Widget.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+<!--        <item name="android:textColor">?android:attr/textColorPrimary</item>-->
+        <item name="android:textColor">@color/white</item>
+    </style>
+
     <!-- ScrollViewProducts -->
     <style name="ScrollViewProducts" parent="Theme.Material3.Dark">
         <!-- Dimens -->
@@ -18,16 +28,20 @@
 
         <!-- Position -->
         <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginTop">16dp</item>
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:paddingStart">@dimen/product_grid_spacing</item>
         <item name="paddingEnd">@dimen/product_grid_spacing</item>
+        <item name="android:paddingTop">8dp</item>
 
         <!-- Color -->
-        <item name="android:background">@color/productGridBackgroundColor</item>
+<!--        <item name="android:background">@color/productGridBackgroundColor</item>-->
+        <item name="android:background">@drawable/round_background</item>
 
         <!-- Behavior -->
         <item name="layout_behavior">@string/appbar_scrolling_view_behavior</item>
+
+<!--        <color name="productGridBackgroundColor">#FFFBFA</color>-->
     </style>
 
     <!-- BoxCardView -->

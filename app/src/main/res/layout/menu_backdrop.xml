@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/featured_label" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apartment_label" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accessories_label" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shoes_label" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tops_label" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bottoms_label" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dresses_label" />
+
+    <View
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:layout_margin="16dp"
+        android:background="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_menu_exit"
+        style="@style/Widget.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        app:icon="@drawable/baseline_cancel_24"
+        app:iconTint="@color/white"
+        app:iconSize="24dp" />
+</merge>

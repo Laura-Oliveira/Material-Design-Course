@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView android:id="@+id/cardItem"
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/cardItem"
     style="@style/CardView.Dark"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginTop="8dp"
     android:layout_marginEnd="8dp"
-    app:cardElevation="0dp"
+    android:layout_marginBottom="10dp"
+    app:cardElevation="8dp"
     app:cardPreventCornerOverlap="true">
 
         <!-- CardView Box Global -->

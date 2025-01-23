@@ -62,6 +62,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation (libs.androidx.databinding.runtime)
 
+    //Glide (Images)
     implementation (libs.glide)
     annotationProcessor (libs.compiler)
 

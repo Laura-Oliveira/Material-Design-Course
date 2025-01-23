@@ -14,7 +14,6 @@ class LoginView : AppCompatActivity()
     private lateinit var txt_username:EditText
     private lateinit var txt_password:EditText
     private lateinit var next_button:Button
-   // private lateinit var cancel_button:Button
     private lateinit var activityIntent:Intent
 
     override fun onCreate(savedInstanceState: Bundle?)

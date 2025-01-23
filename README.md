@@ -32,6 +32,7 @@ Ecommerce App is an **Android App** that focus in creatina an ecommerce app to p
 <p align="center">
   <img src="./img/print_1.jpg" width="250" height="500"/>
   <img src="./img/print_2.jpg" width="250" height="500"/>
+  <img src="./img/print_3.jpg" width="250" height="500"/> 
 <!--  <img src="./img/ecommerce.png" width="500" height="500"/> -->
   <img src="./img/michin_logo.PNG" width="500" height="500"/>
  </p>
@@ -43,4 +44,4 @@ Ecommerce App is an **Android App** that focus in creatina an ecommerce app to p
 
 
 
-<!--   <img src="./img/print_3.jpg" width="250" height="500"/> -->
+

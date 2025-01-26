@@ -41,12 +41,3 @@ Ecommerce App is an **Android App** that focus in creatina an ecommerce app to p
 
 📩 Message me now to get started <a href="https://www.linkedin.com/company/michi-in/"> **Click Here** </a>
 -------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-

@@ -51,6 +51,7 @@ dependencies {
     implementation(libs.car.ui.lib)
     implementation(libs.volley)
     implementation(libs.firebase.crashlytics.buildtools)
+    implementation(libs.androidx.constraintlayout.core)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

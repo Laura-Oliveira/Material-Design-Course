@@ -14,7 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EcommerceShrine"
         tools:targetApi="31">
-        <activity android:name=".MainView"
+        <activity
+            android:name=".ShipInfo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,13 +24,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.ProductsView"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".LoginView"
+            android:name=".MainView"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".view.ProductsView"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".LoginView"
+            android:exported="true"></activity>
     </application>
+
 </manifest>

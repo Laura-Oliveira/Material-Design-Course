@@ -19,6 +19,7 @@ volley = "1.2.1"
 databindingRuntime = "8.8.0"
 lifecycleViewmodelKtx = "2.8.7"
 firebaseCrashlyticsBuildtools = "3.0.2"
+constraintlayoutCore = "1.1.0"
 
 
 [libraries]
@@ -41,6 +42,7 @@ androidx-databinding-runtime = { module = "androidx.databinding:databinding-runt
 androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleViewmodelKtx" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+androidx-constraintlayout-core = { group = "androidx.constraintlayout", name = "constraintlayout-core", version.ref = "constraintlayoutCore" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

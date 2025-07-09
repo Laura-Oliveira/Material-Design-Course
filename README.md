@@ -77,7 +77,7 @@ Designed to highlight clean architecture, modularization, and production-ready p
 
 This Ecommerce App was crafted not only as a study project but to **showcase production-level Android development** skills and design decisions that European tech teams look for:
 
-- ✅ **MVVM architecture & Clean Architecture principles**: maintainable, testable and easy-to-scale codebase  
+- ✅ **MVVM & Clean Architecture**: maintainable, testable and easy-to-scale codebase  
 - 📦 **Modular and scalable structure**: ready for new features, product categories and payments  
 - 🎨 **Material Design 3**: modern, consistent UI following Google’s latest design guidelines  
 - ⚡ **Reactive UI with LiveData & Data Binding**: smooth and dynamic user experience  
@@ -106,7 +106,7 @@ By combining **modern Kotlin practices**, strong architecture and UX-focused des
 
 ---
 
-## 💡 Want to build something together?
+## 💡 Do you want to build something together?
 📩 Message me or 👉 [**Connect on LinkedIn**](https://www.linkedin.com/in/laura-oliveira-mobile/)
 
 📩 laura.oliveira.tech@gmail.com

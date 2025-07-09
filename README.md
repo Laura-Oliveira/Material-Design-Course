@@ -66,6 +66,33 @@ Designed to highlight clean architecture, modularization, and production-ready p
 
 ---
 
+## 💻 **Tools Used**
+- **Android Studio Koala**
+- **Git & GitHub** for version control & CI/CD
+- **Kanban** as agile methodology for task tracking
+
+---
+
+## 🌍 **Why this project matters**
+
+This Ecommerce App was crafted not only as a study project but to **showcase production-level Android development** skills and design decisions that European tech teams look for:
+
+- ✅ **MVVM architecture & Clean Architecture principles**: maintainable, testable and easy-to-scale codebase  
+- 📦 **Modular and scalable structure**: ready for new features, product categories and payments  
+- 🎨 **Material Design 3**: modern, consistent UI following Google’s latest design guidelines  
+- ⚡ **Reactive UI with LiveData & Data Binding**: smooth and dynamic user experience  
+- 🌙 **Dark & light themes**: improved accessibility and user preference support  
+- 🧪 **Testing-ready structure**: designed for unit, UI and integration tests  
+- 🛍️ **Real-world ecommerce flow**: product listing, navigation and clean UX for high-conversion interfaces  
+
+By combining **modern Kotlin practices**, strong architecture and UX-focused design, this project demonstrates readiness to deliver **robust, scalable and user-friendly Android apps** to the market.
+
+---
+
+### ✅ Status: On Going
+
+---
+
 ## 📱 **Screenshots**
 
 <p align="center">
@@ -76,26 +103,6 @@ Designed to highlight clean architecture, modularization, and production-ready p
   <img src="./img/ecommerce.png" width="377" height="283"/> 
   <img src="./img/michin_logo.PNG" width="377" height="300"/>
 </p>
-
----
-
-## 💻 **Tools Used**
-- **Android Studio Koala**
-- **Git & GitHub** for version control & CI/CD
-- **Kanban** as agile methodology for task tracking
-
----
-
-## 🌍 **Why this project matters?**
-This app demonstrates:
-- Production-level **MVVM architecture** with clean, testable Kotlin code
-- Application of **Material Design 3**
-- Modular, scalable approach
-- UX-focused design for ecommerce – a high-demand domain in Europe
-
----
-
-### ✅ Status: On Going
 
 ---
 

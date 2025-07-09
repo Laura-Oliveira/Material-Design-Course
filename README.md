@@ -49,7 +49,7 @@ Designed to highlight clean architecture, modularization, and production-ready p
 
 ---
 
-## 🎨 **UI & UX Highlights**
+## 🎨 **UI & UX**
 - Consistent visual language based on **Google’s Material Design**
 - Smooth user interactions
 - Optimized for real-world ecommerce navigation
@@ -86,7 +86,7 @@ Designed to highlight clean architecture, modularization, and production-ready p
 
 ---
 
-## 🌍 **Why this project matters**
+## 🌍 **Why this project matters?**
 This app demonstrates:
 - Production-level **MVVM architecture** with clean, testable Kotlin code
 - Application of **Material Design 3**

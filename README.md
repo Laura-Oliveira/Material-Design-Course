@@ -1,9 +1,5 @@
 # 🛍️ Ecommerce App – Android & Kotlin
 
-> Modern **Ecommerce App** built to showcase advanced **Material Design 3**, **Kotlin** and **MVVM** skills for Android.
-
----
-
 <div align="center">
 
 [![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/Laura-Oliveira/BBC-News/actions)
@@ -20,6 +16,10 @@
 [![Forks](https://img.shields.io/github/forks/Laura-Oliveira/BBC-News?style=social)](https://github.com/Laura-Oliveira/BBC-News/fork)
 
 </div>
+
+---
+
+Modern **Ecommerce App** built to showcase advanced **Material Design 3**, **Kotlin** and **MVVM** skills for Android.
 
 ---
 

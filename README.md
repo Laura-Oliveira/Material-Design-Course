@@ -21,8 +21,9 @@
 
 ---
 
-> A modern **Ecommerce Android App** built to showcase **Material Design 3**, **Kotlin** and **MVVM** in a real-world shopping experience.  
-> Designed to highlight clean architecture, modularization, and production-ready practices – with a focus on user-centric design and scalability.
+A modern **Ecommerce Android App** built to showcase **Material Design 3**, **Kotlin** and **MVVM** in a real-world shopping experience.  
+
+Designed to highlight clean architecture, modularization, and production-ready practices – with a focus on user-centric design and scalability.
 
 ---
 

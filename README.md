@@ -72,7 +72,7 @@
   <img src="./img/print_2.jpg" width="250" height="500"/>
   <img src="./img/print_3.jpg" width="250" height="500"/>
   <br>
-  <img src="./img/ecommerce.png" width="377" height="300"/> 
+  <img src="./img/ecommerce.png" width="377" height="283"/> 
   <img src="./img/michin_logo.PNG" width="377" height="300"/>
 </p>
 
@@ -99,7 +99,10 @@ This app demonstrates:
 ---
 
 ## 💡 Want to build something together?
-📩 Message me or 👉 [**Connect on LinkedIn**](https://www.linkedin.com/in/laura-oliveira-mobile/)  
+📩 Message me or 👉 [**Connect on LinkedIn**](https://www.linkedin.com/in/laura-oliveira-mobile/)
+
+📩 laura.oliveira.tech@gmail.com
+
 Let’s create modern, robust and elegant Android apps that stand out in the market.
 
 ---

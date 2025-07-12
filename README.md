@@ -14,6 +14,7 @@
 
 [![Last Commit](https://img.shields.io/github/last-commit/Laura-Oliveira/Material-Design-Course/main)](https://github.com/Laura-Oliveira/Material-Design-Course/commits/main)
 [![Issues](https://img.shields.io/github/issues/Laura-Oliveira/Material-Design-Course)](https://github.com/Laura-Oliveira/Material-Design-Course/issues)
+
 [![Stars](https://img.shields.io/github/stars/Laura-Oliveira/Material-Design-Course?style=social)](https://github.com/Laura-Oliveira/Material-Design-Course/stargazers)
 [![Forks](https://img.shields.io/github/forks/Laura-Oliveira/Material-Design-Course?style=social)](https://github.com/Laura-Oliveira/Material-Design-Course/fork)
 

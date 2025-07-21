@@ -1,5 +1,5 @@
 # 🛍️ Ecommerce App  
-
+ 
 <div align="center">  
   
 [![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/Laura-Oliveira/Ecommerce-App/actions)
